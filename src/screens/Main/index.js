@@ -82,6 +82,7 @@ class Main extends Component {
   }
 
   renderTypes = (item, type) => {
+    console.log(item.time);
     switch (type) {
       case 'res_text':
         return item.text.map((_, i) => {
