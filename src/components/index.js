@@ -15,3 +15,4 @@ export {default as RoutingCard} from './RoutingCard';
 export {default as VideoBox} from './VideoBox';
 export {default as AnswerImage} from './AnswerImage';
 export {default as QuestionButton} from './QuestionButton';
+export {default as VideoPopup} from './VideoPopup';

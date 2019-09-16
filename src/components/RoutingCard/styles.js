@@ -62,7 +62,10 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  video: {
+  image: {
+    width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
     borderBottomLeftRadius: 30,
     borderBottomRightRadius: 30,
   },

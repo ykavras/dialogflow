@@ -1,11 +1,10 @@
 import React from 'react';
 import {View, Image, Text, TouchableOpacity} from 'react-native';
 import styles from './styles';
-import {VideoBox} from '../index';
 import VideoPlay from '../../assets/icons/VideoPlay';
 
 function RoutingCard(props) {
-  const {icon, title, text, readMore, uri, paused, onPress} = props;
+  const {icon, title, text, readMore, uri, onPress} = props;
   return (
     <View style={styles.wrapper}>
       <View style={styles.top}>
@@ -19,7 +18,7 @@ function RoutingCard(props) {
         </TouchableOpacity>
       ) : (
         <View style={styles.videoWrapper}>
-          <VideoBox uri={uri} paused={paused} style={styles.video} />
+          <Image source={{uri}} style={styles.image} />
           <TouchableOpacity style={styles.button} onPress={onPress}>
             <VideoPlay style={styles.buttonIcon} />
           </TouchableOpacity>

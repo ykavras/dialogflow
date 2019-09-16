@@ -13,11 +13,14 @@ import {
   AnswerUser,
   QuestionButton,
   RoutingCard,
+  VideoPopup,
 } from '../../components';
 
 class Main extends Component {
   state = {
     sendText: '',
+    paused: true,
+    videoUri: undefined,
     messages: [
       {
         _id: 1,
@@ -36,14 +39,6 @@ class Main extends Component {
         user: false,
       },
     ],
-    types: {
-      res_question_box: '',
-      res_image_box: '{}',
-      res_answer_button: '{}',
-      res_answer_numbers: '{}',
-      res_multi_buttons: '{}',
-      res_routing_card: '{}',
-    },
   };
 
   componentDidMount() {
@@ -54,6 +49,10 @@ class Main extends Component {
       dialogflowConfig.project_id,
     );
   }
+
+  openTheVideo = videoUri => {
+    this.setState({videoUri, paused: false});
+  };
 
   sendMessage = (message, user) => {
     const {messages} = this.state;
@@ -82,7 +81,6 @@ class Main extends Component {
   }
 
   renderTypes = (item, type) => {
-    console.log(item.time);
     switch (type) {
       case 'res_text':
         return item.text.map((_, i) => {
@@ -136,6 +134,8 @@ class Main extends Component {
                 <RoutingCard
                   key={`routingCard_${_.index}`}
                   title={_.item.title}
+                  uri={_.item.videoImage}
+                  onPress={() => this.openTheVideo(_.item.video)}
                 />
               );
             }}
@@ -146,11 +146,20 @@ class Main extends Component {
   };
 
   render() {
-    const {messages, sendText} = this.state;
+    const {messages, sendText, paused, videoUri} = this.state;
     console.log(messages);
     return (
       <View style={styles.wrapper}>
         <StatusBar barStyle="dark-content" />
+        {!paused && (
+          <VideoPopup
+            paused={paused}
+            uri={videoUri}
+            onPress={() => {
+              this.setState({videoUri: undefined, paused: true});
+            }}
+          />
+        )}
         <View style={styles.messageWrapper}>
           <FlatList
             ref={ref => {

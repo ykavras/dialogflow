@@ -14,14 +14,14 @@ function VideoBox(props) {
       onError={this.videoError} // Callback when video cannot be loaded
       style={[styles.wrapper, style]}
       paused={paused}
-      resizeMode="cover"
+      resizeMode="contain"
+      controls
     />
   );
 }
 
 VideoBox.defaultProps = {
-  uri:
-    'https://storage.coverr.co/videos/coverr-lviv-central-plaza-1566811399204?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6IjExNDMyN0NEOTRCMUFCMTFERTE3IiwiaWF0IjoxNTY4NjM1Njg1fQ.lvBzJBshUeNUs5XjiFrWCKE598uwSuJO2rfQOeC8p9Q',
+  uri: undefined,
   paused: true,
 };
 
