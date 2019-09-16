@@ -1,0 +1,38 @@
+[
+  {
+    "type": "res_question_box",
+    "text": "Daha fazla bilgi ister misiniz?",
+    "buttonTitle": "ELBETTE"
+  },
+  {
+    "type": "res_image_box",
+    "image": "url"
+  },
+  {
+    "type": "res_answer_button",
+    "answer": ["Evet", "Hayır"]
+  },
+  {
+    "type": "res_multi_buttons",
+    "multiButton": ["İstanbul", "Ankara", "İzmir", "Adana"]
+  },
+  {
+    "type": "res_routing_card",
+    "routingCard": [
+      {
+        "icon": "url",
+        "title": "title",
+        "text": "text",
+        "video": null,
+        "button": "url"
+      },
+      {
+        "icon": "url",
+        "title": "title",
+        "text": "text",
+        "video": "url",
+        "button": false
+      }
+    ]
+  }
+]

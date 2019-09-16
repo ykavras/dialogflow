@@ -4,6 +4,7 @@ import theme from '../../lib/theme';
 export default StyleSheet.create({
   wrapper: {
     marginVertical: 10,
+    marginHorizontal: 15,
     alignItems: 'flex-start',
   },
   content: {

@@ -13,4 +13,4 @@ function AnswerButton(props) {
 
 AnswerButton.defaultProps = {};
 
-export default AnswerButton
+export default AnswerButton;

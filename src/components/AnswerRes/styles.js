@@ -6,6 +6,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     paddingVertical: 10,
+    marginHorizontal: 15,
   },
   avatar: {
     width: 50,

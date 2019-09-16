@@ -11,3 +11,7 @@ export {default as AnswerUser} from './AnswerUser';
 export {default as AnswerRes} from './AnswerRes';
 export {default as AnswerButtonMulti} from './AnswerButtonMulti';
 export {default as AnswerButton} from './AnswerButton';
+export {default as RoutingCard} from './RoutingCard';
+export {default as VideoBox} from './VideoBox';
+export {default as AnswerImage} from './AnswerImage';
+export {default as QuestionButton} from './QuestionButton';

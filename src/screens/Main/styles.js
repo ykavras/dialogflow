@@ -4,14 +4,10 @@ import {ifIphoneX} from 'react-native-iphone-x-helper';
 export default StyleSheet.create({
   wrapper: {
     flex: 1,
-    ...ifIphoneX(
-      {
-        paddingTop: 40,
-      },
-      {
-        paddingTop: 20,
-      },
-    ),
+    backgroundColor: '#F7F7F9',
+    ...ifIphoneX({
+      paddingBottom: 20,
+    }),
   },
   button: {
     height: 40,
@@ -20,19 +16,28 @@ export default StyleSheet.create({
   },
   messageWrapper: {
     flex: 1,
-  },
-  flatList: {
-    paddingHorizontal: 20,
+    backgroundColor: '#FFFFFF',
+    ...ifIphoneX(
+      {
+        paddingTop: 40,
+      },
+      {
+        paddingTop: 10,
+      },
+    ),
   },
   buttons: {
-    paddingHorizontal: 20,
     flexDirection: 'row',
     flexWrap: 'wrap',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  buttonsList: {
+    paddingLeft: 20,
+  },
   answerBtn: {
     paddingHorizontal: 20,
+    marginVertical: 10,
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',

@@ -13,14 +13,15 @@ export default StyleSheet.create({
     shadowRadius: 5,
     elevation: 3,
     borderRadius: 15,
-    marginHorizontal: 5,
+    marginRight: 20,
     marginVertical: 10,
   },
   title: {
     fontFamily: theme.poppinsSemiBold,
     fontSize: 16,
     color: '#FFFFFF',
-    padding: 14,
+    paddingHorizontal: 20,
+    paddingVertical: 14,
     textAlign: 'center',
   },
 });

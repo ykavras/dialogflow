@@ -89,10 +89,10 @@ const StackNavigator = createStackNavigator(
 const RootNavigator = createSwitchNavigator(
   {
     StackNavigator,
-    Welcome,
+    Main,
   },
   {
-    initialRouteName: 'Welcome',
+    initialRouteName: 'Main',
   },
 );
 

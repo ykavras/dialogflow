@@ -5,6 +5,7 @@ export default StyleSheet.create({
   wrapper: {
     alignItems: 'flex-end',
     paddingVertical: 10,
+    marginHorizontal: 15,
   },
   shadow: {
     backgroundColor: '#507dff',

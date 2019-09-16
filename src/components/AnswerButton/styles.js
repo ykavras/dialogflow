@@ -14,7 +14,6 @@ export default StyleSheet.create({
     shadowRadius: 5,
     elevation: 3,
     borderRadius: 15,
-    marginBottom: 20,
   },
   title: {
     fontFamily: theme.poppinsSemiBold,

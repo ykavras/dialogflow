@@ -9,7 +9,8 @@ export default StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#F7F7F9',
-    padding: 10,
+    paddingVertical: 10,
+    paddingHorizontal: 20,
   },
   input: {
     flex: 1,
@@ -17,10 +18,9 @@ export default StyleSheet.create({
     fontSize: 16,
     color: '#696d70',
     paddingVertical: 12,
-    paddingLeft: 10,
   },
   button: {
-    width: 40,
+    width: 30,
     height: 30,
     marginLeft: 10,
   },
