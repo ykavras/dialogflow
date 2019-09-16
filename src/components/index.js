@@ -1,0 +1,13 @@
+export {default as AnswerKeyboard} from './AnswerKeyboard';
+export {default as PrivacyPopup} from './PrivacyPopup';
+export {default as WelcomeSkipBtn} from './WelcomeSkipBtn';
+export {default as WelcomeCenterText} from './WelcomeCenterText';
+export {default as QuestionBox} from './QuestionBox';
+export {default as WelcomeSmallText} from './WelcomeSmallText';
+export {default as WelcomeInfoBtn} from './WelcomeInfoBtn';
+export {default as WelcomeButton} from './WelcomeButton';
+export {default as WelcomeGenders} from './WelcomeGenders';
+export {default as AnswerUser} from './AnswerUser';
+export {default as AnswerRes} from './AnswerRes';
+export {default as AnswerButtonMulti} from './AnswerButtonMulti';
+export {default as AnswerButton} from './AnswerButton';

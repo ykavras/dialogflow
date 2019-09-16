@@ -1,0 +1,67 @@
+[
+  {
+    "text": "Selam, Ben HEROO",
+    "smallText": "",
+    "buttonTitle": "MERHABA HEROO",
+    "fontSize": 40,
+    "button": true,
+    "infoText": false
+  },
+  {
+    "text": "Vücudun, cinsel hayat, ilişkiler ve daha fazlası hakkındaki sorularınızı cevaplamak için buradayım.",
+    "smallText": "",
+    "buttonTitle": "Başka ?",
+    "fontSize": 20,
+    "button": true,
+    "infoText": false
+  },
+  {
+    "text": "veya \nşunun gibi \nsorular için",
+    "smallText": "",
+    "buttonTitle": "Başka ?",
+    "fontSize": 30,
+    "button": false,
+    "infoText": false
+  },
+  {
+    "text": "",
+    "smallText": "",
+    "questionBox": [
+      "Ergenlik döneminde \nneler olur ?",
+      "Bir baskıyla nasıl \nbaş edebilirim? "
+    ],
+    "buttonTitle": "Bana daha fazlasını anlat.",
+    "fontSize": 30,
+    "button": true,
+    "infoText": false
+  },
+  {
+    "text": "Bu arada, bu sohbet gizli ve özel .",
+    "smallText": "",
+    "buttonTitle": "Harika",
+    "fontSize": 30,
+    "button": true,
+    "infoText": true
+  },
+  {
+    "text": "Cinsiyetin ne? \nBu sana daha iyi cevaplar vermeme yardımcı oluyor.",
+    "smallText": "",
+    "genders": [
+      "Kadın",
+      "Erkek",
+      "Belirtmek İstemiyorum"
+    ],
+    "buttonTitle": "",
+    "fontSize": 24,
+    "button": false,
+    "infoText": false
+  },
+  {
+    "text": "Harika.\nBaşlayalım!",
+    "smallText": "Bana hiçbir kişisel bilgini anlatmana gerek kalmayacak. \nAdınız, telefon numaranız veya e-posta adresinizi paylaşmamanız en iyisidir.",
+    "buttonTitle": "Beni Heroo 'ya götür!",
+    "fontSize": 30,
+    "button": true,
+    "infoText": false
+  }
+]
