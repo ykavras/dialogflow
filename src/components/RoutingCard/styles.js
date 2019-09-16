@@ -17,6 +17,7 @@ export default StyleSheet.create({
     marginVertical: 10,
     marginRight: 10,
     marginLeft: 5,
+    justifyContent: 'space-between',
   },
   top: {
     padding: 14,
@@ -28,7 +29,6 @@ export default StyleSheet.create({
     borderRadius: 12,
     marginBottom: 14,
     resizeMode: 'contain',
-    borderWidth: 1,
   },
   title: {
     fontFamily: theme.poppinsRegular,

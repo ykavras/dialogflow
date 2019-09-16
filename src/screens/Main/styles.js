@@ -34,6 +34,7 @@ export default StyleSheet.create({
   },
   buttonsList: {
     paddingLeft: 20,
+    paddingRight: 10,
   },
   answerBtn: {
     paddingHorizontal: 20,

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, StatusBar, FlatList, Text} from 'react-native';
+import {View, StatusBar, FlatList, Linking} from 'react-native';
 import styles from './styles';
 import {Dialogflow_V2} from 'react-native-dialogflow';
 
@@ -54,6 +54,10 @@ class Main extends Component {
     this.setState({videoUri, paused: false});
   };
 
+  openReadMore = url => {
+    Linking.openURL(url);
+  };
+
   sendMessage = (message, user) => {
     const {messages} = this.state;
     const postMessage = {
@@ -80,6 +84,14 @@ class Main extends Component {
     );
   }
 
+  answerButton = message => {
+    Dialogflow_V2.requestQuery(
+      message,
+      result => this.sendMessage(result, false),
+      error => console.log(error),
+    );
+  };
+
   renderTypes = (item, type) => {
     switch (type) {
       case 'res_text':
@@ -92,6 +104,7 @@ class Main extends Component {
             key="res_question_box"
             question={item.text}
             buttonTitle={item.buttonTitle}
+            onPress={() => this.answerButton(item.buttonTitle)}
           />
         );
       case 'res_image_box':
@@ -100,7 +113,13 @@ class Main extends Component {
         return (
           <View key="res_answer_button" style={styles.answerBtn}>
             {item.answer.map((_, i) => {
-              return <AnswerButton key={`answerButton_${i}`} text={_} />;
+              return (
+                <AnswerButton
+                  key={`answerButton_${i}`}
+                  text={_}
+                  onPress={() => this.answerButton(_)}
+                />
+              );
             })}
           </View>
         );
@@ -116,6 +135,7 @@ class Main extends Component {
                 <AnswerButtonMulti
                   key={`answerButtonMulti_${_.item}`}
                   text={_.item}
+                  onPress={() => this.answerButton(_.item)}
                 />
               );
             }}
@@ -133,8 +153,15 @@ class Main extends Component {
               return (
                 <RoutingCard
                   key={`routingCard_${_.index}`}
+                  icon={_.item.icon}
                   title={_.item.title}
+                  text={_.item.text}
                   uri={_.item.videoImage}
+                  readMore={
+                    _.item.button
+                      ? () => this.openReadMore(_.item.button)
+                      : false
+                  }
                   onPress={() => this.openTheVideo(_.item.video)}
                 />
               );

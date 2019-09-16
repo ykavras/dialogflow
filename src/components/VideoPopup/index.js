@@ -9,7 +9,7 @@ function VideoPopup(props) {
   return (
     <View style={styles.wrapper}>
       <TouchableOpacity style={styles.close} onPress={onPress}>
-        <Close fill="#FFFFFF" style={styles.icon}/>
+        <Close fill="#FFFFFF" style={styles.icon} />
       </TouchableOpacity>
       <VideoBox style={styles.video} uri={uri} paused={paused} />
     </View>
