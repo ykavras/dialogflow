@@ -83,6 +83,10 @@ class Main extends Component {
 
   renderTypes = (item, type) => {
     switch (type) {
+      case 'res_text':
+        return item.text.map((_, i) => {
+          return <AnswerRes key={`answerResX_${i}`} message={_} />;
+        });
       case 'res_question_box':
         return (
           <QuestionButton

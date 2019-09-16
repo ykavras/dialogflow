@@ -1,5 +1,14 @@
 [
   {
+    "type": "res_text",
+    "text": [
+      "1 - Daha fazla bilgi ister misiniz?",
+      "2 - Daha fazla bilgi ister misiniz?",
+      "3 - Daha fazla bilgi ister misiniz?",
+      "4 - Daha fazla bilgi ister misiniz?"
+    ]
+  },
+  {
     "type": "res_question_box",
     "text": "Daha fazla bilgi ister misiniz?",
     "buttonTitle": "ELBETTE"
