@@ -10,13 +10,13 @@ import styles from './styles';
 import SendButton from '../../assets/icons/SendButton';
 
 function AnswerKeyboard(props) {
-  const {onPress, value, onChangeText, placeholder} = props;
+  const {onPress, value, onChangeText} = props;
   return (
-    <KeyboardAvoidingView behavior={Platform.OS === 'ios' && 'padding'}>
+    <KeyboardAvoidingView behavior={Platform.OS === 'ios' && 'padding'} enabled>
       <View style={styles.wrapper}>
         <TextInput
           style={styles.input}
-          placeholder={placeholder}
+          placeholder="Hero ile konuşmaya başla..."
           value={value}
           onChangeText={onChangeText}
         />
@@ -34,8 +34,6 @@ function AnswerKeyboard(props) {
   );
 }
 
-AnswerKeyboard.defaultProps = {
-  placeholder: 'Hero ile konuşmaya başla',
-};
+AnswerKeyboard.defaultProps = {};
 
 export default AnswerKeyboard;

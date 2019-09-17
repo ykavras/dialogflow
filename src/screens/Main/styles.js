@@ -17,14 +17,6 @@ export default StyleSheet.create({
   messageWrapper: {
     flex: 1,
     backgroundColor: '#FFFFFF',
-    ...ifIphoneX(
-      {
-        paddingTop: 40,
-      },
-      {
-        paddingTop: 10,
-      },
-    ),
   },
   buttons: {
     flexDirection: 'row',

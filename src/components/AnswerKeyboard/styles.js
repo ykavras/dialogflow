@@ -14,7 +14,7 @@ export default StyleSheet.create({
   },
   input: {
     flex: 1,
-    fontFamily: theme.poppinsMedium,
+    fontFamily: theme.poppinsRegular,
     fontSize: 16,
     color: '#696d70',
     paddingVertical: 12,

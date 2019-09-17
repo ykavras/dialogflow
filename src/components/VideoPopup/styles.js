@@ -10,8 +10,8 @@ export default StyleSheet.create({
     right: 0,
     bottom: 0,
     backgroundColor: '#000000',
-    zIndex: 2,
-    elevation: 2,
+    zIndex: 5,
+    elevation: 5,
   },
   video: {
     position: 'relative',

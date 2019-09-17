@@ -1,5 +1,12 @@
 import React, {Component} from 'react';
-import {View, StatusBar, FlatList, Linking} from 'react-native';
+import {
+  View,
+  StatusBar,
+  FlatList,
+  Linking,
+  Platform,
+  KeyboardAvoidingView,
+} from 'react-native';
 import styles from './styles';
 import {Dialogflow_V2} from 'react-native-dialogflow';
 
@@ -13,8 +20,10 @@ import {
   AnswerUser,
   QuestionButton,
   RoutingCard,
+  TopBar,
   VideoPopup,
 } from '../../components';
+import {Header} from 'react-navigation-stack';
 
 class Main extends Component {
   state = {
@@ -72,7 +81,7 @@ class Main extends Component {
     });
     setTimeout(() => {
       this.scrollView.scrollToEnd();
-    }, 100);
+    }, 500);
   };
 
   onSend(message) {
@@ -178,6 +187,7 @@ class Main extends Component {
     return (
       <View style={styles.wrapper}>
         <StatusBar barStyle="dark-content" />
+        <TopBar />
         {!paused && (
           <VideoPopup
             paused={paused}

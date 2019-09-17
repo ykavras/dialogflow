@@ -14,7 +14,6 @@ export default StyleSheet.create({
     borderRadius: 25,
     backgroundColor: '#4b4b4b',
     marginRight: 10,
-    padding: 8,
   },
   icon: {
     width: '100%',
