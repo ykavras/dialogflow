@@ -31,22 +31,22 @@ class Main extends Component {
     paused: true,
     videoUri: undefined,
     messages: [
-      {
-        _id: 1,
-        text: {
-          queryResult: {
-            fulfillmentMessages: [
-              {
-                text: {
-                  text: ['Text response yasir düz yazı'],
-                },
-              },
-            ],
-          },
-        },
-        createdAt: new Date(),
-        user: false,
-      },
+      //{
+      //  _id: 1,
+      //  text: {
+      //    queryResult: {
+      //      fulfillmentMessages: [
+      //        {
+      //          text: {
+      //            text: ['Merhaba'],
+      //          },
+      //        },
+      //      ],
+      //    },
+      //  },
+      //  createdAt: new Date(),
+      //  user: false,
+      //},
     ],
   };
 

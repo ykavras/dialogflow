@@ -26,7 +26,6 @@ class Welcome extends Component {
   };
 
   componentDidMount() {
-    this.props.navigation.navigate('Main')
     const {opacity, transform, scale} = this.state;
     this.anim(opacity, 1, 1000);
     this.anim(transform, 1, 1000);

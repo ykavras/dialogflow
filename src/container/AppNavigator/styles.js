@@ -17,6 +17,7 @@ export default StyleSheet.create({
     backgroundColor: 'white',
     borderTopWidth: 0.5,
     borderColor: '#d2d2d2',
+    display: 'none',
     ...Platform.select({
       ios: {
         ...ifIphoneX(

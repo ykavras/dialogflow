@@ -4,7 +4,7 @@ import {createBottomTabNavigator} from 'react-navigation-tabs';
 import {createStackNavigator} from 'react-navigation-stack';
 import {Animated, Easing, Text, View, TouchableOpacity} from 'react-native';
 import styles from './styles';
-import {Main, Welcome} from '../../screens/';
+import {Welcome, Main} from '../../screens/';
 
 const Tabs = createBottomTabNavigator(
   {
@@ -56,7 +56,9 @@ const Tabs = createBottomTabNavigator(
       labelStyle: {
         display: 'none',
       },
-      style: {},
+      style: {
+        display: 'none',
+      },
     },
   },
 );
@@ -89,10 +91,10 @@ const StackNavigator = createStackNavigator(
 const RootNavigator = createSwitchNavigator(
   {
     StackNavigator,
-    Main,
+    Welcome,
   },
   {
-    initialRouteName: 'Main',
+    initialRouteName: 'Welcome',
   },
 );
 
