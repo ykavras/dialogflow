@@ -5,8 +5,10 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* dialogflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* dialogflowTests.m */; };
+		05BC4282583B430C9CFC1311 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 484E2CCFCA894889B059AEF1 /* Poppins-Black.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
@@ -17,14 +19,13 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* dialogflowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* dialogflowTests.m */; };
 		59E4D2153555F43FD4F56E5C /* libPods-dialogflowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28D0E226E42382F10CDB5C1C /* libPods-dialogflowTests.a */; };
-		D603E28264EA6088D329247D /* libPods-dialogflow-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D84B6FA3DAB8A8D53FC4729D /* libPods-dialogflow-tvOSTests.a */; };
-		DB8F2CA61028B46CB66CC6F3 /* libPods-dialogflow-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC388A2D4B0A1BC763F9468 /* libPods-dialogflow-tvOS.a */; };
-		05BC4282583B430C9CFC1311 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 484E2CCFCA894889B059AEF1 /* Poppins-Black.ttf */; };
 		6BB611A8626641059796CFBA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D92E0E5054674893B0376412 /* Poppins-Bold.ttf */; };
-		D32B60E3DDD94A7997109AEE /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E4CFB8EF6B448F7AA4672B7 /* Poppins-Light.ttf */; };
+		77E39A3AB0CE479DB8FB23E6 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8321BB833B014FD488A82EE1 /* Poppins-SemiBold.ttf */; };
 		957CF1E0BE1F46F5A6F14C17 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 131BCF7E996A40CA96557A08 /* Poppins-Medium.ttf */; };
 		C48D89D0C1E24E5883F16A64 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA1BD6E36A29454280B71949 /* Poppins-Regular.ttf */; };
-		77E39A3AB0CE479DB8FB23E6 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8321BB833B014FD488A82EE1 /* Poppins-SemiBold.ttf */; };
+		D32B60E3DDD94A7997109AEE /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E4CFB8EF6B448F7AA4672B7 /* Poppins-Light.ttf */; };
+		D603E28264EA6088D329247D /* libPods-dialogflow-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D84B6FA3DAB8A8D53FC4729D /* libPods-dialogflow-tvOSTests.a */; };
+		DB8F2CA61028B46CB66CC6F3 /* libPods-dialogflow-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CC388A2D4B0A1BC763F9468 /* libPods-dialogflow-tvOS.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* dialogflowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dialogflowTests.m; sourceTree = "<group>"; };
 		01247491C3EB3F39C03D839F /* libPods-dialogflow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dialogflow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		131BCF7E996A40CA96557A08 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* dialogflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dialogflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = dialogflow/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = dialogflow/AppDelegate.m; sourceTree = "<group>"; };
@@ -62,22 +64,21 @@
 		28D0E226E42382F10CDB5C1C /* libPods-dialogflowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dialogflowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* dialogflow-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dialogflow-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* dialogflow-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dialogflow-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4CFB8EF6B448F7AA4672B7 /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; };
 		3CC388A2D4B0A1BC763F9468 /* libPods-dialogflow-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dialogflow-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		484E2CCFCA894889B059AEF1 /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../src/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; };
 		5F8DB79F503E26BB14CBE515 /* Pods-dialogflowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dialogflowTests.release.xcconfig"; path = "Target Support Files/Pods-dialogflowTests/Pods-dialogflowTests.release.xcconfig"; sourceTree = "<group>"; };
+		8321BB833B014FD488A82EE1 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		8BE935789D184478479945D7 /* Pods-dialogflow-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dialogflow-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-dialogflow-tvOSTests/Pods-dialogflow-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		9072168B8DD1CBBA2502B07F /* Pods-dialogflowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dialogflowTests.debug.xcconfig"; path = "Target Support Files/Pods-dialogflowTests/Pods-dialogflowTests.debug.xcconfig"; sourceTree = "<group>"; };
 		91833EA1302146D06EB508BC /* Pods-dialogflow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dialogflow.release.xcconfig"; path = "Target Support Files/Pods-dialogflow/Pods-dialogflow.release.xcconfig"; sourceTree = "<group>"; };
 		D84B6FA3DAB8A8D53FC4729D /* libPods-dialogflow-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dialogflow-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92E0E5054674893B0376412 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		DA1BD6E36A29454280B71949 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		DF7A059E4146C4B138319DE5 /* Pods-dialogflow-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dialogflow-tvOS.release.xcconfig"; path = "Target Support Files/Pods-dialogflow-tvOS/Pods-dialogflow-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		FB84837E4488CB7DBAD26E16 /* Pods-dialogflow-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dialogflow-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-dialogflow-tvOSTests/Pods-dialogflow-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		484E2CCFCA894889B059AEF1 /* Poppins-Black.ttf */ = {isa = PBXFileReference; name = "Poppins-Black.ttf"; path = "../src/assets/fonts/Poppins-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D92E0E5054674893B0376412 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../src/assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2E4CFB8EF6B448F7AA4672B7 /* Poppins-Light.ttf */ = {isa = PBXFileReference; name = "Poppins-Light.ttf"; path = "../src/assets/fonts/Poppins-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		131BCF7E996A40CA96557A08 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; name = "Poppins-Medium.ttf"; path = "../src/assets/fonts/Poppins-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DA1BD6E36A29454280B71949 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../src/assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		8321BB833B014FD488A82EE1 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; name = "Poppins-SemiBold.ttf"; path = "../src/assets/fonts/Poppins-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,8 +173,20 @@
 				9072168B8DD1CBBA2502B07F /* Pods-dialogflowTests.debug.xcconfig */,
 				5F8DB79F503E26BB14CBE515 /* Pods-dialogflowTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		680F328473574B38B009276D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				484E2CCFCA894889B059AEF1 /* Poppins-Black.ttf */,
+				D92E0E5054674893B0376412 /* Poppins-Bold.ttf */,
+				2E4CFB8EF6B448F7AA4672B7 /* Poppins-Light.ttf */,
+				131BCF7E996A40CA96557A08 /* Poppins-Medium.ttf */,
+				DA1BD6E36A29454280B71949 /* Poppins-Regular.ttf */,
+				8321BB833B014FD488A82EE1 /* Poppins-SemiBold.ttf */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -209,20 +222,6 @@
 			);
 			name = Products;
 			sourceTree = "<group>";
-		};
-		680F328473574B38B009276D /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				484E2CCFCA894889B059AEF1 /* Poppins-Black.ttf */,
-				D92E0E5054674893B0376412 /* Poppins-Bold.ttf */,
-				2E4CFB8EF6B448F7AA4672B7 /* Poppins-Light.ttf */,
-				131BCF7E996A40CA96557A08 /* Poppins-Medium.ttf */,
-				DA1BD6E36A29454280B71949 /* Poppins-Regular.ttf */,
-				8321BB833B014FD488A82EE1 /* Poppins-SemiBold.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 
@@ -316,14 +315,20 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 2BJ3DQR8K5;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 2BJ3DQR8K5;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2BJ3DQR8K5;
 						ProvisioningStyle = Automatic;
 					};
 					2D02E48F1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2BJ3DQR8K5;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2D02E47A1E0B4A5D006451C7;
 					};
@@ -334,6 +339,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -403,7 +409,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
 		2ADB9D4DBC94B7D8D435E831 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -615,6 +621,7 @@
 			baseConfigurationReference = 9072168B8DD1CBBA2502B07F /* Pods-dialogflowTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2BJ3DQR8K5;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -639,6 +646,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 2BJ3DQR8K5;
 				INFOPLIST_FILE = dialogflowTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -660,6 +668,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 2BJ3DQR8K5;
 				INFOPLIST_FILE = dialogflow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -679,6 +688,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BJ3DQR8K5;
 				INFOPLIST_FILE = dialogflow/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -703,6 +713,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2BJ3DQR8K5;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "dialogflow-tvOS/Info.plist";
@@ -732,6 +743,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2BJ3DQR8K5;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "dialogflow-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -758,6 +770,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2BJ3DQR8K5;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "dialogflow-tvOSTests/Info.plist";
@@ -786,6 +799,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2BJ3DQR8K5;
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "dialogflow-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -911,7 +925,7 @@
 				00E356F71AD99517003FC87E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "dialogflow" */ = {
 			isa = XCConfigurationList;
@@ -920,7 +934,7 @@
 				13B07F951A680F5B00A75B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "dialogflow-tvOS" */ = {
 			isa = XCConfigurationList;
@@ -929,7 +943,7 @@
 				2D02E4981E0B4A5E006451C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "dialogflow-tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -938,7 +952,7 @@
 				2D02E49A1E0B4A5E006451C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "dialogflow" */ = {
 			isa = XCConfigurationList;
@@ -947,7 +961,7 @@
 				83CBBA211A601CBA00E9B192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
